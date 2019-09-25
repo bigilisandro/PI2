@@ -2,7 +2,7 @@ body {
 	background-color: #F6E8E5;
 	margin: 0px;
 }
-h1 {
+.main2_title, .main3_title, .main4_title {
 	color: #9A2C14;
 	font-family: 'Questrial', sans-serif;
 	font-size: 40px;
@@ -11,7 +11,7 @@ h1 {
 	margin: 0px;
     padding: 15px;
 }
-.menu {
+.header_menu {
 	width: 100px;
 	height: 50px;
 	font-size: 20px;
@@ -23,43 +23,43 @@ h1 {
 a:hover {
 	color: white;
 }
-#contenedor {
+.header {
 	background: linear-gradient(5deg,#F09480,#DC8572) ;
 	height: 90px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	position: fixed;
-	margin-top: 0px;
+	position: sticky;
+	top: 0;
 	width: 100%;
 	z-index: 99;
 }
-#img1 {
+.header_logo {
 	width: 100px;
 	height: 80px;
 }
-#img2 {
+.main1_img {
 	width: 100%;
 	height: 550px;
 	background-size: cover;
 	background-position: center center;
 }
-#img3 {
+.main3_img {
 	width: 150px;
 	height: 110px;
 	transition: width height 5s;
 }
-#img3:hover {
+.main3_img:hover {
 	width: 250px;
 	height: 200px;
 }
-video {
+.main2_video {
 	display: block;
 	margin: auto;
 	width: 600px;
 	height: 400px;
 }
-p {
+.main1_text, .main2_text, .main3_text {
 	width: 80%;
 	margin-left: 10%;
 	height: auto;
@@ -69,7 +69,7 @@ p {
 	word-spacing: 12px;
 	font-family: 'Manjari', sans-serif;
 }
-table {
+.main3_table {
 	display: table;
 	margin: auto;
 	border-width: 10px;
@@ -81,13 +81,14 @@ tr {
 } 
 td {
 	transition: font-size 5s;
+	:hover {
+		background-color: white;
+		font-size: 25px;
+		color: black;
+	}
 }
-td:hover {
-	background-color: white;
-	font-size: 25px;
-	color: black;
-}
-#salon {
+
+.main2_img1 {
 	transform: rotate(5deg);
 	display: inline;
 	float: left;
@@ -95,13 +96,13 @@ td:hover {
 	height: 400px;
 	margin-right: 100px;
 }
-#afuera {
+.main2_img2 {
 	transform: rotate(-5deg);
 	display: inline;
 	width: 600px;
 	height: 400px;
 }
-fieldset {
+.main4_fieldset {
 	width: 400px;
 	height: 350px;
 	margin: auto;
@@ -110,13 +111,13 @@ fieldset {
 	color: white;
 	text-align: center;
 }
-legend {
+.main4_legend {
 	font-size: 25px;
 	font-family: 'Livvic', sans-serif;
 	color: black;
 	background: linear-gradient(to top, #E1300A, #F3836B);
 }
-#pie {
+.footer {
 		background: linear-gradient(to top, #615857, #807D7D);
 		display: flex;
 		justify-content: space-around;

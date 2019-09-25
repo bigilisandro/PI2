@@ -1,0 +1,123 @@
+body {
+  background-color: #F6E8E5;
+  margin: 0px; }
+
+.main2_title, .main3_title, .main4_title {
+  color: #9A2C14;
+  font-family: 'Questrial', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  height: 30px;
+  margin: 0px;
+  padding: 15px; }
+
+.header_menu {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Manjari', sans-serif;
+  overflow: hidden; }
+
+a:hover {
+  color: white; }
+
+.header {
+  background: linear-gradient(5deg, #F09480, #DC8572);
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99; }
+
+.header_logo {
+  width: 100px;
+  height: 80px; }
+
+.main1_img {
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center center; }
+
+.main3_img {
+  width: 150px;
+  height: 110px;
+  transition: width height 5s; }
+
+.main3_img:hover {
+  width: 250px;
+  height: 200px; }
+
+.main2_video {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 400px; }
+
+.main1_text, .main2_text, .main3_text {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 12px;
+  font-family: 'Manjari', sans-serif; }
+
+.main3_table {
+  display: table;
+  margin: auto;
+  border-width: 10px;
+  border-color: white;
+  background-color: #C64529; }
+
+tr {
+  color: white; }
+
+td {
+  transition: font-size 5s; }
+  td :hover {
+    background-color: white;
+    font-size: 25px;
+    color: black; }
+
+.main2_img1 {
+  transform: rotate(5deg);
+  display: inline;
+  float: left;
+  width: 600px;
+  height: 400px;
+  margin-right: 100px; }
+
+.main2_img2 {
+  transform: rotate(-5deg);
+  display: inline;
+  width: 600px;
+  height: 400px; }
+
+.main4_fieldset {
+  width: 400px;
+  height: 350px;
+  margin: auto;
+  background: linear-gradient(to top, #E1300A, #F3836B);
+  font-size: 20px;
+  color: white;
+  text-align: center; }
+
+.main4_legend {
+  font-size: 25px;
+  font-family: 'Livvic', sans-serif;
+  color: black;
+  background: linear-gradient(to top, #E1300A, #F3836B); }
+
+.footer {
+  background: linear-gradient(to top, #615857, #807D7D);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px; }
